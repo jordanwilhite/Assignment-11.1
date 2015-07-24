@@ -7,6 +7,8 @@ Im adding this line as well to make sure the that the branch works.
 Test
 
 second time around
+This is Jordan, adding a comment from Bens computer
+
 
 
 # Setup
