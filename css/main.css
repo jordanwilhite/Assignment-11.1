@@ -21,3 +21,45 @@ body > header > div.Logo > h1 {
   font-weight: 200;
   float: left;
   margin: auto; }
+
+#topbox > div.top-bar > form {
+  width: 200px; }
+
+#topbox > div.top-bar > form > input[type="search"] {
+  margin: 7px;
+  width: 193px;
+  font-size: 2em; }
+
+#topbox > div.top-bar > button:nth-child(2) {
+  font-size: 1em;
+  font-weight: bolder;
+  line-height: 1.5em;
+  border-radius: .2px;
+  color: #fff;
+  padding: 0;
+  background-color: #51A6C1; }
+
+#topbox > div.top-bar > button:nth-child(5) {
+  font-size: 1em;
+  font-weight: bolder;
+  line-height: 1.5em;
+  border-radius: .2px;
+  color: #fff;
+  padding: 0;
+  background-color: #51A6C1; }
+
+#topbox > div.top-bar {
+  display: inline-flex;
+  float: right; }
+
+body > main {
+  width: 60%;
+  position: relative;
+  float: right; }
+
+aside.sidebar-high {
+  position: relative;
+  background-color: #fff;
+  overflow: auto;
+  width: 20%;
+  margin: 20px 0 0 80px; }
