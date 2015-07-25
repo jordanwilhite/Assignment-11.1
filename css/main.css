@@ -4,28 +4,25 @@ body {
   width: 100%; }
 
 header {
-  width: 1076px;
+  width: 100%;
   margin: 0 auto;
-  padding: 32px; }
+  padding: 14px 0 40px 0; }
 
 #topbox {
   width: 100%;
-  height: 100%;
+  height: 30px;
   position: relative;
   background-color: #fff; }
 
-#topbox > div {
-  float: left;
-  margin: 0 0 0 147px; }
-
 body > header > div.Logo > h1 {
   font-family: "Times", sans-serif;
-  color: #f56400;
   font-size: 2.5em;
-  margin-left: 16%;
+  color: #f56400;
   margin-top: 2px;
   font-weight: 200;
   float: left;
+  margin-left: 16%;
+  margin-bottom: 0;
   padding-right: 20px; }
 
 #searchbar {
@@ -52,8 +49,9 @@ body > header > div.Logo > h1 {
   margin-left: 15px; }
 
 #topbox > a:nth-child(5) {
-  margin-left: 360px;
-  font-size: 16px; }
+  margin-left: 270px;
+  font-size: 16px;
+  color: #51A6C1; }
 
 #signin {
   border: 1px solid black;
@@ -66,7 +64,8 @@ body > header > div.Logo > h1 {
 #topbox > a:nth-child(7) {
   border-left: 1px solid #CFCBC8;
   padding: 8px;
-  margin-left: 5px; }
+  margin-left: 5px;
+  color: #CFCBC8; }
 
 body > main {
   width: 60%;
@@ -74,6 +73,13 @@ body > main {
   float: right; }
 
 aside.sidebar-high {
+  position: relative;
+  background-color: #fff;
+  overflow: auto;
+  width: 20%;
+  margin: 20px 0 0 80px; }
+
+aside.sidebar-low {
   position: relative;
   background-color: #fff;
   overflow: auto;
