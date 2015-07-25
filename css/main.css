@@ -1,2 +1,23 @@
 body {
-  background-color: #F5F5F1; }
+  background-color: #F5F5F1;
+  margin: 0;
+  width: 100%; }
+
+header {
+  width: 1076px;
+  margin: 0 auto;
+  padding: 32px; }
+
+#topbox {
+  width: 100%;
+  height: 30px;
+  position: relative;
+  background-color: #fff; }
+
+body > header > div.Logo > h1 {
+  font-family: "Times", sans-serif;
+  color: #f56400;
+  margin-top: 2px;
+  font-weight: 200;
+  float: left;
+  margin: auto; }
