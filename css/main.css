@@ -10,47 +10,63 @@ header {
 
 #topbox {
   width: 100%;
-  height: 30px;
+  height: 100%;
   position: relative;
   background-color: #fff; }
+
+#topbox > div {
+  float: left;
+  margin: 0 0 0 147px; }
 
 body > header > div.Logo > h1 {
   font-family: "Times", sans-serif;
   color: #f56400;
+  font-size: 2.5em;
+  margin-left: 16%;
   margin-top: 2px;
   font-weight: 200;
   float: left;
-  margin: auto; }
+  padding-right: 20px; }
 
-#topbox > div.top-bar > form {
-  width: 200px; }
+#searchbar {
+  display: inline-block;
+  margin-top: 17px;
+  width: 200px;
+  border: 1px solid #CFCBC8;
+  border-radius: 5px;
+  font-size: 16px; }
 
-#topbox > div.top-bar > form > input[type="search"] {
-  margin: 7px;
-  width: 193px;
-  font-size: 2em; }
+#searchbar > input[type="search"] {
+  width: 100%; }
 
-#topbox > div.top-bar > button:nth-child(2) {
-  font-size: 1em;
-  font-weight: bolder;
-  line-height: 1.5em;
-  border-radius: .2px;
+#srcbtn {
   color: #fff;
-  padding: 0;
-  background-color: #51A6C1; }
+  background-color: #51A6C1;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-right: 5px;
+  margin-left: -5px; }
 
-#topbox > div.top-bar > button:nth-child(5) {
-  font-size: 1em;
-  font-weight: bolder;
-  line-height: 1.5em;
-  border-radius: .2px;
-  color: #fff;
-  padding: 0;
-  background-color: #51A6C1; }
+#browse {
+  margin-left: 15px; }
 
-#topbox > div.top-bar {
-  display: inline-flex;
-  float: right; }
+#topbox > a:nth-child(5) {
+  margin-left: 360px;
+  font-size: 16px; }
+
+#signin {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 12px;
+  color: #51A6C1;
+  margin-left: 5px; }
+
+#topbox > a:nth-child(7) {
+  border-left: 1px solid #CFCBC8;
+  padding: 8px;
+  margin-left: 5px; }
 
 body > main {
   width: 60%;
