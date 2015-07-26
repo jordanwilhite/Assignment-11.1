@@ -7,37 +7,41 @@
   </head>
 <body>
 
-    <header id="topbox">
-      <div class="Logo">
-        <h1>Etsy</h1>
-      </div>
-          <form id="searchbar">
-            <input type="search" placeholder="Search for Items or Shops" name="Search Etsy" value="">
-          </form>
-          <button id="srcbtn" type="search" name="Search">Search</button>
-              <select id="browse" name="Browse">
-                <option value="Browse">Browse</option>
-                <option value="Back to School">Back to School</option>
-                <option value="Summer Celebrations">Summer Celebrations</option>
-                <option value="Gift Ideas">Gift Ideas</option>
-                <option value="Fund on Etsy">Fund on Etsy</option>
-                <option value="Art">Art</option>
-                <option value="Home & Living">Home & Living</option>
-                <option value="Mobile Accessories">Mobile Accessories</option>
-                <option value="Jewelry">Jewelry</option>
-                <option value="Women">Women</option>
-                <option value="Men">Men</option>
-                <option value="Kids">Kids</option>
-                <option value="Vintage">Vintage</option>
-                <option value="Weddings">Weddings</option>
-                <option value="Craft Supplies">Craft Supplies</option>
-            </select>
-            <a href="https://www.etsy.com/join?ref=hdr&from_page=https%3A%2F%2Fwww.etsy.com%2Fsearch">Register</a>
-              <button id="signin"type="signin" onclick="alert('Thanks for signing in!')" name="Sign In">Sign In</button>
-            <a href="https://www.etsy.com/cart?ref=hdr">Cart</a>
-      </div>
-    </header>
+  <header id="topbox">
+   <div class="Logo">
+     <h1>Etsy</h1>
+   </div>
+     <div class="top-bar">
+       <form id="searchbar">
+         <input type="search" placeholder="Search for Items or Shops" name="Search Etsy" value="">
+       </form>
 
+       <button id="srcbtn" type="search" name="Search">Search</button>
+
+           <select id="browse" name="Browse">
+             <option value="Browse">Browse</option>
+             <option value="Back to School">Back to School</option>
+             <option value="Summer Celebrations">Summer Celebrations</option>
+             <option value="Gift Ideas">Gift Ideas</option>
+             <option value="Fund on Etsy">Fund on Etsy</option>
+             <option value="Art">Art</option>
+             <option value="Home & Living">Home & Living</option>
+             <option value="Mobile Accessories">Mobile Accessories</option>
+             <option value="Jewelry">Jewelry</option>
+             <option value="Women">Women</option>
+             <option value="Men">Men</option>
+             <option value="Kids">Kids</option>
+             <option value="Vintage">Vintage</option>
+             <option value="Weddings">Weddings</option>
+             <option value="Craft Supplies">Craft Supplies</option>
+         </select>
+
+         <a href="https://www.etsy.com/join?ref=hdr&from_page=https%3A%2F%2Fwww.etsy.com%2Fsearch">Register</a>
+
+           <button id="signin"type="signin" onclick="alert('Thanks for signing in!')" name="Sign In">Sign In</button>
+         <a href="https://www.etsy.com/cart?ref=hdr">Cart</a>
+   </div>
+ </header>
 
 
 <main class="main">
@@ -50,7 +54,7 @@
       <option value="Recent">Most Recent</option>
       <option value="High">Highest Price</option>
       <option value="Low">Lowest Price</option>
-    </select>
+    </select> -->
 
 </main>
 
@@ -245,13 +249,25 @@
 </footer>
 
 <script type="text/template" id="listingTemplate">
+      <div class="listing">
+          <img src="<%- image %>" alt="Item Image" />
+        </a>
+        <p><%- subtitle() %> <a href="<% url %>"><% url %> </a></p>
+        <div class="meta-row">
+          <a href="<%- shopUrl %>"> <%- shop %> </a>
+          <p><%- price + currency_code %></p>
+        </div>
+      </div>
+    </script>
+
+<!-- <script type="text/template" id="listingTemplate">
   <div class="listing">
     <h2><%- title %></h2>
     <img src="<%= image %>" alt="" />
     <a href="<%= shopUrl %>"> <p><%- shop %></p></a>
     <p><%- price + currency_code %></p>
   </div>
-</script>
+</script> -->
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/underscore/underscore-min.js"></script>

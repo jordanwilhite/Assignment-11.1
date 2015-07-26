@@ -23,6 +23,14 @@ var buildAllListings = function(listings){
 var buildListing = function(listing){
   var url = listing.url;
   var title = listing.title;
+  var subtitle = function(){
+    if(title.length > 24){
+      return title.substring(0, 24) + "...";
+    } else {
+      return title;
+    }
+  };
+
   var shop = listing.Shop.shop_name;
   var shopUrl = listing.Shop.url;
   var price = listing.price;
@@ -34,6 +42,7 @@ var buildListing = function(listing){
   var templateHtml = $('#listingTemplate').html();
   var template = _.template(templateHtml);
   var html = template({
+    subtitle: subtitle,
     shop: shop,
     shopUrl: shopUrl,
     title: title,
