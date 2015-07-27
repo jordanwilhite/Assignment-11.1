@@ -1,0 +1,26 @@
+{
+  "name": "ben_jordan",
+  "version": "1.0.0",
+  "description": "This is the README file for Ben and Jordan's ETSY shop.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanwilhite/Assignment-11.1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanwilhite/Assignment-11.1/issues"
+  },
+  "homepage": "https://github.com/jordanwilhite/Assignment-11.1#readme",
+  "dependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-jscs": "^1.6.0",
+    "gulp-sass": "^2.0.4"
+  }
+}
