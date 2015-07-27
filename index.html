@@ -37,18 +37,20 @@
          <a href="https://www.etsy.com/cart?ref=hdr">Cart</a>
    </div>
  </header>
+
 <main class="main">
-  <div class="main floating-text">
-    <h4>Top categories for "whiskey"</h4>
-  </div>
     <h3><a href="https://www.etsy.com/search/handmade?q=whiskey"> All Catagories </a> > "whiskey" (23,062 Results)</h3>
     <h3>Sort by <select></h3>
       <option value="Relevancy">Relevancy</option>
       <option value="Recent">Most Recent</option>
       <option value="High">Highest Price</option>
       <option value="Low">Lowest Price</option>
-    </select> -->
+    </select>
+  <div class="content">
+
+  </div>
 </main>
+
 <aside class="sidebar-high">
   <div class="floating text high"></div>
     <h4>All Categories</h4>
@@ -232,7 +234,7 @@
         <p><%- subtitle() %> <a href="<% url %>"><% url %> </a></p>
         <div class="meta-row">
           <a href="<%- shopUrl %>"> <%- shop %> </a>
-          <p><%- price + currency_code %></p>
+          <p><%- "$" + price + currency_code %></p>
         </div>
       </div>
     </script>
