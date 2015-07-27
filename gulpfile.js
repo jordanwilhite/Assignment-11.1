@@ -34,11 +34,16 @@ gulp.task('watch', function() {
   gulp.watch(['./src/scss/**/*.scss'], ['sass']);
 });
 
+gulp.task('copy', function () {
+  return gulp.src('./src/img/**/*')
+    .pipe(gulp.dest('dist/img/'));
+});
 
 gulp.task('default', [
   'watch',
   'lint',
   'babel',
-  'sass'
+  'sass',
+  'copy'
   ]
 );
