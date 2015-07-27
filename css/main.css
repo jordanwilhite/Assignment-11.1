@@ -68,9 +68,15 @@ body > header > div.Logo > h1 {
   color: #CFCBC8; }
 
 body > main {
-  width: 60%;
+  width: 70%;
   position: relative;
-  float: right; }
+  float: right;
+  display: inline-block; }
+
+.listing Image {
+  padding-right: 15px;
+  width: 45%;
+  float: left; }
 
 aside.sidebar-high {
   position: relative;
@@ -85,3 +91,55 @@ aside.sidebar-low {
   overflow: auto;
   width: 20%;
   margin: 20px 0 0 80px; }
+
+body > aside.sidebar-high > h4 {
+  text-align: left;
+  text-indent: 10px; }
+
+body > aside.sidebar-high > ul:nth-child(3) > a {
+  color: #51A6C1; }
+
+body > aside.sidebar-high > ul:nth-child(4) > a {
+  color: #51A6C1; }
+
+body > aside.sidebar-high > ul:nth-child(5) > a {
+  color: #51A6C1; }
+
+body > aside.sidebar-high > ul:nth-child(6) > a {
+  color: #51A6C1; }
+
+body > aside.sidebar-high > ul:nth-child(7) > a {
+  color: #51A6C1; }
+
+body > aside.sidebar-high > ul:nth-child(8) > a {
+  color: #51A6C1; }
+
+body > aside.sidebar-high > ul:nth-child(9) > a {
+  color: #51A6C1; }
+
+body > aside.sidebar-high > ul:nth-child(10) > a {
+  color: #51A6C1; }
+
+body > aside.sidebar-high > ul:nth-child(11) > a {
+  color: #51A6C1; }
+
+body > aside.sidebar-high > ul:nth-child(12) > a {
+  color: #51A6C1; }
+
+body > aside.sidebar-high > ul:nth-child(13) > a {
+  color: #51A6C1; }
+
+body > aside.sidebar-high > ul:nth-child(14) > a {
+  color: #51A6C1; }
+
+body > aside.sidebar-high > ul:nth-child(15) > a {
+  color: #51A6C1; }
+
+body > aside.sidebar-high > ul:nth-child(16) > a {
+  color: #51A6C1; }
+
+body > aside.sidebar-high > ul:nth-child(17) > a {
+  color: #51A6C1; }
+
+body > aside.sidebar-high > ul:nth-child(18) > a {
+  color: #51A6C1; }
