@@ -1,3 +1,424 @@
 body{
-  background-color: #F5F5F1;
+background-color: #F5F5F1  ;
+margin: 0;
+width: 100%;
+}
+
+header {
+width: 100%;
+margin: 0 auto;
+padding: 14px 0 40px 0;
+}
+
+#topbox{
+width: 100%;
+height: 30px;
+position: relative;
+background-color: #fff;
+}
+
+body > header > div.Logo > h1{
+font-family: "Times", sans-serif;
+font-size: 2.5em;
+color: #f56400  ;
+margin-top: 2px;
+font-weight: 200;
+float: left;
+margin-left: 16%;
+margin-bottom: 0;
+padding-right: 20px;
+}
+
+#searchbar{
+display: inline-block;
+margin-top: 17px;
+width: 200px;
+border: 1px solid #CFCBC8  ;
+border-radius: 5px;
+font-size: 16px;
+}
+
+#searchbar > input[type="search"]{
+width: 100%;
+}
+
+#srcbtn{
+color: #fff;
+background-color: #51A6C1;
+border: 1px solid black;
+border-radius: 5px;
+font-size: 12px;
+margin-right: 5px;
+margin-left: -5px;
+}
+
+#browse{
+margin-left: 15px;
+}
+
+#topbox > a:nth-child(5){
+margin-left: 270px;
+font-size: 16px;
+color: #51A6C1;
+}
+
+#signin{
+border: 1px solid black;
+border-radius: 5px;
+background-color: #fff;
+font-size: 12px;
+color: #51A6C1;
+margin-left: 5px;
+}
+
+#topbox > a:nth-child(7){
+border-left: 1px solid #CFCBC8  ;
+padding: 8px;
+margin-left: 5px;
+color: #CFCBC8;
+}
+
+body > main {
+width: 70%;
+position: relative;
+float: right;
+display: inline-block;
+}
+
+.listing Image {
+padding-right: 15px;
+width: 45%;
+float: left;
+}
+
+
+aside.sidebar-high {
+position: relative;
+background-color: #fff;
+overflow: auto;
+width: 20%;
+margin: 20px 0 0 80px;
+
+}
+
+aside.sidebar-low {
+position: relative;
+background-color: #fff;
+overflow: auto;
+width: 20%;
+margin: 20px 0 0 80px;
+}
+
+body > aside.sidebar-high > h4{
+  text-align: left;
+  text-indent: 10px;
+  font-family: "Arial";
+  font-size: 13px;
+}
+
+body > aside.sidebar-high > ul:nth-child(3) > a{
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+}
+body > aside.sidebar-high > ul:nth-child(4) > a{
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+}
+
+body > aside.sidebar-high > ul:nth-child(5) > a{
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+}
+
+body > aside.sidebar-high > ul:nth-child(6) > a{
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+}
+body > aside.sidebar-high > ul:nth-child(7) > a{
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+}
+body > aside.sidebar-high > ul:nth-child(8) > a{
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+}
+body > aside.sidebar-high > ul:nth-child(9) > a{
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+}
+body > aside.sidebar-high > ul:nth-child(10) > a{
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+}
+body > aside.sidebar-high > ul:nth-child(11) > a{
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+}
+
+body > aside.sidebar-high > ul:nth-child(12) > a{
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+}
+body > aside.sidebar-high > ul:nth-child(13) > a{
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+}
+body > aside.sidebar-high > ul:nth-child(14) > a{
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+}
+body > aside.sidebar-high > ul:nth-child(15) > a{
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+}
+body > aside.sidebar-high > ul:nth-child(16) > a{
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+}
+body > aside.sidebar-high > ul:nth-child(17) > a{
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+}
+
+body > aside.sidebar-high > ul:nth-child(18) > a{
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+}
+
+body > aside.sidebar-low > h5:nth-child(1){
+  text-align: left;
+  text-indent: 10px;
+  font-family: "Arial";
+  font-size: 13px;
+}
+
+
+body > aside.sidebar-low > form.item-type > a:nth-child(2){
+  text-align: left;
+  font-family: "Arial";
+  color: #51A6C1;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+body > aside.sidebar-low > form.item-type > a:nth-child(5){
+  text-align: left;
+  font-family: "Arial";
+  color: #51A6C1;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+body > aside.sidebar-low > form.item-type > a:nth-child(8){
+  text-align: left;
+  font-family: "Arial";
+  color: #51A6C1;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+body > aside.sidebar-low > form.item-type > h5{
+  text-align: left;
+  text-indent: 10px;
+  font-family: "Arial";
+  font-size: 13px;
+  text-decoration: none;
+}
+
+body > aside.sidebar-low > form.item-type > input[type="lowprice"]:nth-child(10){
+  display: inline-block;
+  margin-top: 17px;
+  text-align: center;
+  width: 55px;
+  padding: 2px;
+  border: 1px solid #CFCBC8;
+  font-size: 16px;
+}
+
+body > aside.sidebar-low > form.item-type > input[type="highprice"]:nth-child(11){
+  display: inline-block;
+  margin-top: 17px;
+  width: 57px;
+  padding: 2px;
+  text-align: center;
+  border: 1px solid #CFCBC8;
+  font-size: 16px;
+}
+
+body > aside.sidebar-low > form.item-type > input[type="search"]:nth-child(12){
+  display: inline-block;
+  margin-top: 17px;
+  width: 40px;
+  text-align: center;
+  padding: 2px;
+  border: 1px solid #CFCBC8;
+  font-size: 16px;
+  }
+
+  body > aside.sidebar-low > h5:nth-child(3){
+  text-align: left;
+  text-indent: 10px;
+  font-family: "Arial";
+  font-size: 13px;
+  }
+
+  body > aside.sidebar-low > button:nth-child(4){
+    height: 22px;
+    width: 22px;
+    padding: 1px;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 35px;
+  }
+  body > aside.sidebar-low > button:nth-child(5){
+    height: 22px;
+    width: 22px;
+    padding: 1px;
+    border-radius: 3px;
+    border: 1px solid black;
+  }
+  body > aside.sidebar-low > button:nth-child(6){
+    height: 22px;
+    width: 22px;
+    padding: 1px;
+    border-radius: 3px;
+    border: 1px solid black;
+  }
+  body > aside.sidebar-low > button:nth-child(7){
+    height: 22px;
+    width: 22px;
+    padding: 1px;
+    border-radius: 3px;
+    border: 1px solid black;
+  }
+  body > aside.sidebar-low > button:nth-child(8){
+    height: 22px;
+    width: 22px;
+    padding: 1px;
+    border-radius: 3px;
+    border: 1px solid black;
+  }
+  body > aside.sidebar-low > button:nth-child(9){
+    height: 22px;
+    width: 22px;
+    padding: 1px;
+    border-radius: 3px;
+    border: 1px solid black;
+  }
+  body > aside.sidebar-low > button:nth-child(10){
+    height: 22px;
+    width: 22px;
+    padding: 1px;
+    border-radius: 3px;
+    border: 1px solid black;
+  }
+  body > aside.sidebar-low > button:nth-child(11){
+    height: 22px;
+    width: 22px;
+    padding: 1px;
+    border-radius: 3px;
+    border: 1px solid black;
+  }
+
+body > aside.sidebar-low > h5:nth-child(12){
+text-align: left;
+text-indent: 10px;
+font-family: "Arial";
+font-size: 13px;
+}
+
+body > aside.sidebar-low > a:nth-child(14){
+  font-family: "Arial";
+  font-size: 14px;
+  color: #51A6C1;
+  text-decoration: none;
+}
+body > aside.sidebar-low > a:nth-child(17){
+  font-family: "Arial";
+  font-size: 14px;
+  color: #51A6C1;
+  text-decoration: none;
+}
+
+
+body > aside.sidebar-low > h5:nth-child(18){
+text-align: left;
+text-indent: 10px;
+font-family: "Arial";
+font-size: 13px;
+}
+
+body > aside.sidebar-low > form:nth-child(19) > a:nth-child(2){
+  font-family: "Arial";
+  font-size: 14px;
+  color: #51A6C1;
+  text-decoration: none;
+}
+
+body > aside.sidebar-low > form:nth-child(19) > a:nth-child(5){
+  font-family: "Arial";
+  font-size: 14px;
+  color: #51A6C1;
+  text-decoration: none;
+}
+
+body > aside.sidebar-low > form:nth-child(19) > a:nth-child(7){
+  font-family: "Arial";
+  font-size: 14px;
+  color: #51A6C1;
+  text-decoration: none;
+}
+
+body > aside.sidebar-low > h5:nth-child(20){
+  text-align: left;
+  text-indent: 10px;
+  font-family: "Arial";
+  font-size: 13px;
+}
+
+body > aside.sidebar-low > select{
+  margin: 8px;
+}
+
+
+
+
+footer {
+position: relative;
+background-color: #fff;
+overflow: auto;
+width: 100%;
+margin: 0 0 0 0;
 }
