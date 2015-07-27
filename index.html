@@ -6,44 +6,39 @@
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
   </head>
 <body>
-
-    <header id="topbox">
-      <div class="Logo">
-        <h1>Etsy</h1>
-      </div>
-        <div class="top-bar">
-          <form class="searchbar">
-            <input type="search" placeholder="Search for Items or Shops" name="Search Etsy" value="">
-          </form>
-          <button type="search" name="Search">Search</button>
-              <select name="Browse">
-                <option value="Back to School">Back to School</option>
-                <option value="Summer Celebrations">Summer Celebrations</option>
-                <option value="Gift Ideas">Gift Ideas</option>
-                <option value="Fund on Etsy">Fund on Etsy</option>
-                <option value="Art">Art</option>
-                <option value="Home & Living">Home & Living</option>
-                <option value="Mobile Accessories">Mobile Accessories</option>
-                <option value="Jewelry">Jewelry</option>
-                <option value="Women">Women</option>
-                <option value="Men">Men</option>
-                <option value="Kids">Kids</option>
-                <option value="Vintage">Vintage</option>
-                <option value="Weddings">Weddings</option>
-                <option value="Craft Supplies">Craft Supplies</option>
-            </select>
-            <a href="https://www.etsy.com/join?ref=hdr&from_page=https%3A%2F%2Fwww.etsy.com%2Fsearch">Register</a>
-              <button type="signin" onclick="alert('Thanks for signing in!')" name="Sign In">Sign In</button>
-            <a href="https://www.etsy.com/cart?ref=hdr">Cart</a>
-      </div>
-    </header>
-
-
+  <header id="topbox">
+   <div class="Logo">
+     <h1>Etsy</h1>
+   </div>
+     <div class="top-bar">
+       <form id="searchbar">
+         <input type="search" placeholder="Search for Items or Shops" name="Search Etsy" value="">
+       </form>
+        <button id="srcbtn" type="search" name="Search">Search</button>
+           <select id="browse" name="Browse">
+             <option value="Browse">Browse</option>
+             <option value="Back to School">Back to School</option>
+             <option value="Summer Celebrations">Summer Celebrations</option>
+             <option value="Gift Ideas">Gift Ideas</option>
+             <option value="Fund on Etsy">Fund on Etsy</option>
+             <option value="Art">Art</option>
+             <option value="Home & Living">Home & Living</option>
+             <option value="Mobile Accessories">Mobile Accessories</option>
+             <option value="Jewelry">Jewelry</option>
+             <option value="Women">Women</option>
+             <option value="Men">Men</option>
+             <option value="Kids">Kids</option>
+             <option value="Vintage">Vintage</option>
+             <option value="Weddings">Weddings</option>
+             <option value="Craft Supplies">Craft Supplies</option>
+         </select>
+         <a href="https://www.etsy.com/join?ref=hdr&from_page=https%3A%2F%2Fwww.etsy.com%2Fsearch">Register</a>
+           <button id="signin"type="signin" onclick="alert('Thanks for signing in!')" name="Sign In">Sign In</button>
+         <a href="https://www.etsy.com/cart?ref=hdr">Cart</a>
+   </div>
+ </header>
 
 <main class="main">
-  <div class="main floating-text">
-    <h4>Top categories for "whiskey"</h4>
-  </div>
     <h3><a href="https://www.etsy.com/search/handmade?q=whiskey"> All Catagories </a> > "whiskey" (23,062 Results)</h3>
     <h3>Sort by <select></h3>
       <option value="Relevancy">Relevancy</option>
@@ -51,12 +46,13 @@
       <option value="High">Highest Price</option>
       <option value="Low">Lowest Price</option>
     </select>
+  <div class="content">
 
+  </div>
 </main>
 
 <aside class="sidebar-high">
   <div class="floating text high"></div>
-    <h4>Show results for:</h4>
     <h4>All Categories</h4>
       <ul><a href="https://www.etsy.com/search/home-and-living?q=whiskey">Home & Living</a></ul>
       <ul><a href="https://www.etsy.com/search/art-and-collectibles?q=whiskey">Art & Collectibles</a></ul>
@@ -74,35 +70,33 @@
       <ul><a href="https://www.etsy.com/search/pet-supplies?q=whiskey">Pet Supplies</a></ul>
       <ul><a href="https://www.etsy.com/search/toys-and-games?q=whiskey">Toys & Games</a></ui>
 </aside>
-
 <aside class="sidebar-low">
   <h5>Item Type</h5>
     <form class="item-type">
       <input type="radio" name="Item Type" value="All Items"><a href="https://www.etsy.com/search?q=whiskey">All Items</a><br>
       <input type="radio" name="Item Type" value="Handmade"><a href="https://www.etsy.com/search/handmade?q=whiskey">Handmade</a><br>
       <input type="radio" name="Item Type" value="Vintage"><a href="https://www.etsy.com/search/vintage?q=whiskey">Vintage</a>
-
   <h5>Price</h5>
     <form>
-      <input type="lowprice" placeholder="$ Low" name="Lowest Value"> to <input type="highprice" placeholder="$ High" name="Highest Value"> <input type="search" onClick="alert('Search')" placeholder=">" name="search">
+      <input type="lowprice" placeholder="$ Low" name="Lowest Value"> to  <input type="highprice" placeholder="$ High" name="Highest Value"> <input type="search" onClick="alert('Search')" placeholder=">" name="search">
     </form>
   <h5>Filter by Color</h5>
-    <button type="button" name="red"></button>
-    <button type="button" name="orange"></button>
-    <button type="button" name="yellow"></button>
-    <button type="button" name="green"></button>
-    <button type="button" name="light-blue"></button>
-    <button type="button" name="purple"></button>
-    <button type="button" name="black"></button>
-    <button type="button" name="white"></button>
+    <button type="button" name="red" style="background-color: #f40b32;"></button>
+    <button type="button" name="orange" style="background-color: #ff7f00;"></button>
+    <button type="button" name="yellow" style="background-color: #f3cc0c;"></button>
+    <button type="button" name="green" style="background-color: #0ac20a;"></button>
+    <button type="button" name="light-blue" style="background-color: blue;"></button>
+    <button type="button" name="purple" style="background-color: purple;"></button>
+    <button type="button" name="black" style="background-color: black;"></button>
+    <button type="button" name="white" style="background-color: white;"></button>
     <h5>Ordering Options</h5>
     <button type="button" name="Gift Cards"></button> <a href="https://www.etsy.com/search?q=whiskey&gift_card=true">Accepts Etsy Gift Cards</a><br>
     <button type="button"  name="Custom"></button><a href="https://www.etsy.com/search?q=whiskey&customizable=true">Customizable</a>
   <h5>Shop Location</h5>
     <form>
       <input type="radio" name="anywhere" value=""><a href="https://www.etsy.com/search?q=whiskey"> Anywhere</a> <br>
-      <input type="radio" name="usa" value="">
-      <a href="https://www.etsy.com/search?q=whiskey&locationQuery=6252001">Choose a custom location</a>
+      <input type="radio" name="anywhere" value=""><a href="https://www.etsy.com/search?q=whiskey"> United States</a> <br>
+      <a href="https://www.etsy.com/search/vintage?q=whiskey&locationQuery=6252001">Choose a Custom Location</a>
   </form>
   <h5>Ship To</h5>
     <select class="ship">
@@ -124,17 +118,17 @@
     </select>
   </form>
 </aside>
-
-
 <footer>
   <div class="related">
     <h5>related to <b>whiskey:</b></h5>
       <ul>
-        <ul><a href="https://www.etsy.com/search?q=whiskey+barrel&ref=related">whiskey barrel</a></ul>
+        <ul><a
+        href="https://www.etsy.com/search?q=whiskey+barrel&ref=related">whiskey barrel</a></ul>
         <ul><a href="https://www.etsy.com/search?q=whiskey+decanter&ref=related">whiskey decanter</a></ul>
         <ul><a href="https://www.etsy.com/search?q=bourbon&ref=related">bourbon</a></ul>
         <ul><a href="https://www.etsy.com/search?q=whiskey+glass&ref=related">whiskey glass</a></ul>
-        <ul><a href="https://www.etsy.com/search?q=jack+daniels&ref=related">jack daniels</a></ul>
+        <ul><a
+         href="https://www.etsy.com/search?q=jack+daniels&ref=related">jack daniels</a></ul>
         <ul><a href="https://www.etsy.com/search?q=cigar&ref=related">cigar</a></ul>
         <ul><a href="https://www.etsy.com/search?q=scotch&ref=related">scotch</a></ul>
         <ul><a href="https://www.etsy.com/search?q=whisky&ref=related">whisky</a></ul>
@@ -142,16 +136,14 @@
         <ul><a href="https://www.etsy.com/search?q=whiskey+shirt&ref=related">whiskey shirt</a></ul>
       </ul>
   </div>
-
   <div class="looking">
-    <h6>Looking for shops?</h6>
+    <h6>Looking for shops?
       <a href="https://www.etsy.com/shop/whiskeynweddingbells?ref=shop_name_search_sugg">whiskeynweddingbells,</a>
       <a href="https://www.etsy.com/shop/WhiskeyDogWares?ref=shop_name_search_sugg">WhiskeyDogWares,</a>
       <a href="https://www.etsy.com/shop/WhiskeysWhims?ref=shop_name_search_sugg">WhiskeyWhims.</a>
       <a href="https://www.etsy.com/search/shops?q=whiskey&search_type=shops&search_query=whiskey">See more.</a>
+    </h6>
   </div>
-
-
   <div class="pages">
     <button type="back" name="back"><</button>
     <button type="pages" name="number">1</button>
@@ -161,16 +153,15 @@
     <button type="pages" name="number">...</button>
     <button type="back" name="back">></button>
   </div>
-
   <div class="subscribe">
-    <h6 class="newsletter">Get top trends and fresh editors' picks in your inbox with Etsy Finds.</h6>
+    <h6 class="newsletter">Get top trends and fresh editors' picks in your inbox with Etsy Finds.
       <form>
         <input type="email" name="email" placeholder="Enter you email">
         <input type="button" onclick="alert('Thanks for Subscribing!')" value="Subscribe">
       </form>
+    </h6>
   </div>
-
-
+<div class="colums">
   <div class="left">
     <h5>Turn Your Passion Into a Business</h5>
       <button type="Open" name="Open">Open a Shop</button>
@@ -180,7 +171,6 @@
           <ul><a href="https://www.etsy.com/reader?ref=ftr">Etsy Credit Card Reader</a></ul>
         </ul>
   </div>
-
   <div class="leftcenter">
     <h5>Join the Community</h5>
       <ul>
@@ -190,7 +180,6 @@
         <ul><a href="https://www.etsy.com/affiliates?ref=ftr">Affiliates</a></ul>
       </ul>
   </div>
-
   <div class="center">
     <h5>Discover and Shop</h5>
       <ul>
@@ -204,7 +193,6 @@
         <ul><a href="https://www.etsy.com/etsy-finds/?ref=ftr">Etsy Finds</a></ul>
       </ul>
   </div>
-
   <div class="rightcenter">
     <h5>Get to Know Us</h5>
       <ul>
@@ -215,7 +203,6 @@
         <ul><a href="http://investors.etsy.com/phoenix.zhtml?c=253952&p=irol-IRHome">Investors</a></ul>
       </ul>
   </div>
-
   <div class="right">
     <h5>Follow Etsy</h5>
       <ul>
@@ -225,37 +212,34 @@
         <ul><a href="https://instagram.com/etsy/">Instagram</a></ul>
       </ul>
   </div>
-
+</div>
 <div class="bottom">
   <button type="bottom" name="Country">United States</button>
   <button type="bottom" name="Language">Englis(US)</button>
   <button type="bottom" name="Currency">$ USD</button>
   <button type="bottom" onclick="alert('Thanks for asking for help!')" name="Help">Help</button>
 </div>
-
 <div class="bottom-legal">
-  <h6>&copy 2015 Etsy,Inc</h6>
+  <h6>&copy 2015 Etsy,Inc
     <a href="https://www.etsy.com/help/article/479/?ref=ftr">Terms</a>
     <a href="https://www.etsy.com/help/article/480/?ref=ftr">Privacy</a>
     <a href="https://www.etsy.com/help/article/482/?ref=ftr">Copyright</a>
-    <a href="https://www.etsy.com/help/article/3293?ref=ftr">Interest-based Ads</a>
+    <a href="https://www.etsy.com/help/article/3293?ref=ftr">Interest-based Ads</a></h6>
 </div>
-
-
 </footer>
-
 <script type="text/template" id="listingTemplate">
-  <div class="listing">
-    <h2><%- title %></h2>
-    <img src="<%= image %>" alt="" />
-    <a href="<%= shopUrl %>"> <p><%- shop %></p></a>
-    <p><%- price + currency_code %></p>
-  </div>
-</script>
-
+      <div class="listing">
+          <img src="<%- image %>" alt="Item Image" />
+        </a>
+        <p><%- subtitle() %> <a href="<% url %>"><% url %> </a></p>
+        <div class="meta-row">
+          <a href="<%- shopUrl %>"> <%- shop %> </a>
+          <p><%- "$" + price + currency_code %></p>
+        </div>
+      </div>
+    </script>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/underscore/underscore-min.js"></script>
 <script src="main.js"></script>
-
 </body>
 </html>
