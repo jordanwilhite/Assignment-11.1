@@ -266,7 +266,8 @@ body > aside.sidebar-low > button:nth-child(4) {
   width: 22px;
   padding: 1px;
   border-radius: 3px;
-  border: 1px solid black; }
+  border: 1px solid black;
+  margin-left: 35px; }
 
 body > aside.sidebar-low > button:nth-child(5) {
   height: 22px;
@@ -373,4 +374,4 @@ footer {
   background-color: #fff;
   overflow: auto;
   width: 100%;
-  margin: 250px 0 0 80px; }
+  margin: 0 0 0 0; }
