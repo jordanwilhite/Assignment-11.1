@@ -16,7 +16,7 @@ var buildAllListings = function(listings){
     return html + item;
   });
 
-  $('.main').html(html);
+  $('.content').html(html);
 };
 
 var buildListing = function(listing){
