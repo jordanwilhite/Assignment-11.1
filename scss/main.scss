@@ -946,11 +946,31 @@ body > footer > div.subscribe > h6 > form > input[type="button"]:nth-child(2){
   border: 1px solid black;
   font-size: 16px;
 }
-body > footer > div.left > h5{
+
+
+body > footer > div.colums{
 
 }
 
 
+body > footer > div.colums > div.right > h5{
+  font-size: 14px;
+  font-family: "Arial";
+}
+
+
+body > footer > div.right > ul > ul:nth-child(1) > a{
+  margin-left: 1000px;
+}
+body > footer > div.right > ul > ul:nth-child(2) > a{
+  margin-left: 1000px;
+}
+body > footer > div.right > ul > ul:nth-child(3) > a{
+  margin-left: 1000px;
+}
+body > footer > div.right > ul > ul:nth-child(4) > a{
+  margin-left: 1000px;
+}
 
 
 
@@ -1015,6 +1035,28 @@ body > footer > div.bottom > button:nth-child(4){
   border: 1px solid black;
   font-size: 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 body > footer > div.bottom-legal{
   text-align: justify;
