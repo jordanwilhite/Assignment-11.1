@@ -862,9 +862,8 @@ body > footer > div.subscribe > h6 > form > input[type="button"]:nth-child(2) {
   border: 1px solid black;
   font-size: 16px; }
 
-body > footer > div.colums > div.right > h5 {
-  font-size: 14px;
-  font-family: "Arial"; }
+body > footer > div.colums {
+  margin-left: 76px; }
 
 body > footer > div.right > ul > ul:nth-child(1) > a {
   margin-left: 1000px; }
@@ -879,7 +878,7 @@ body > footer > div.right > ul > ul:nth-child(4) > a {
   margin-left: 1000px; }
 
 body > footer > div.bottom > button:nth-child(1) {
-  margin-left: 500px;
+  margin-left: 316px;
   display: inline-block;
   margin-top: 17px;
   width: 127px;
@@ -927,9 +926,211 @@ body > footer > div.bottom > button:nth-child(4) {
   border: 1px solid black;
   font-size: 16px; }
 
+body > footer > div.colums {
+  margin-left: 15px;
+  display: flex; }
+
+body > footer > div.colums > div.left {
+  margin-left: 174px; }
+
+body > footer > div.colums > div.left > button {
+  display: inline-block;
+  margin-top: 17px;
+  width: 106px;
+  background-color: #51A6C1;
+  height: 27px;
+  padding: 2px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 16px; }
+
+body > footer > div.colums > div.left > ul > ul:nth-child(1) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -80px; }
+
+body > footer > div.colums > div.left > ul > ul:nth-child(2) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -80px; }
+
+body > footer > div.colums > div.left > ul > ul:nth-child(3) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -80px; }
+
+body > footer > div.colums > div.leftcenter {
+  margin: 0; }
+
+body > footer > div.colums > div.leftcenter > h5 {
+  margin-left: 36px; }
+
+body > footer > div.colums > div.leftcenter > ul > ul:nth-child(1) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -45px; }
+
+body > footer > div.colums > div.leftcenter > ul > ul:nth-child(2) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -45px; }
+
+body > footer > div.colums > div.leftcenter > ul > ul:nth-child(3) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -45px; }
+
+body > footer > div.colums > div.leftcenter > ul > ul:nth-child(4) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -45px; }
+
+body > footer > div.colums > div.center {
+  margin-left: 40px; }
+
+body > footer > div.colums > div.center > ul > ul:nth-child(1) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -78px; }
+
+body > footer > div.colums > div.center > ul > ul:nth-child(2) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -78px; }
+
+body > footer > div.colums > div.center > ul > ul:nth-child(3) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -78px; }
+
+body > footer > div.colums > div.center > ul > ul:nth-child(4) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -78px; }
+
+body > footer > div.colums > div.center > ul > ul:nth-child(5) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -78px; }
+
+body > footer > div.colums > div.center > ul > ul:nth-child(6) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -78px; }
+
+body > footer > div.colums > div.center > ul > ul:nth-child(7) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -78px; }
+
+body > footer > div.colums > div.center > ul > ul:nth-child(8) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -78px; }
+
+body > footer > div.colums > div.rightcenter {
+  margin-left: 16px; }
+
+body > footer > div.colums > div.rightcenter > ul > ul:nth-child(1) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -78px; }
+
+body > footer > div.colums > div.rightcenter > ul > ul:nth-child(2) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -78px; }
+
+body > footer > div.colums > div.rightcenter > ul > ul:nth-child(3) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -78px; }
+
+body > footer > div.colums > div.rightcenter > ul > ul:nth-child(4) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -78px; }
+
+body > footer > div.colums > div.rightcenter > ul > ul:nth-child(5) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -78px; }
+
+body > footer > div.colums > div.right {
+  margin-left: 59px; }
+
+body > footer > div.colums > div.right > ul > ul:nth-child(1) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -80px; }
+
+body > footer > div.colums > div.right > ul > ul:nth-child(2) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -80px; }
+
+body > footer > div.colums > div.right > ul > ul:nth-child(3) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -80px; }
+
+body > footer > div.colums > div.right > ul > ul:nth-child(4) > a {
+  color: #51A6C1;
+  font-family: "Arial";
+  font-size: 14px;
+  text-decoration: none;
+  margin: -80px; }
+
 body > footer > div.bottom-legal {
   text-align: justify;
-  margin-left: 580px;
+  margin-left: 388px;
   font-family: "Arial";
   display: inline-block;
   font-size: 18px;

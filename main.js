@@ -4,7 +4,6 @@ $.ajax(url, {
   dataType: 'jsonp',
     method: "GET",
   error: function(error){
-
   },
   success: function (data, textStatus, xhr){
     buildAllListings(data.results);
